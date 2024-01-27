@@ -46,7 +46,7 @@ const Login = () => {
                 <div className="flex flex-col gap-2 items-start mt-4">
                     <b>{errorMessage && errorMessage}</b>
                      <input type="submit"  className=" text-white bg-blue-500 border p-1 text-sm cursor-pointer w-full" value={"Login"}/>
-                     <p className=" text-xs hover:text-red cursor-pointer text-blue-500"> <Link to={"/signup"}> A user Sign Up!</Link></p>
+                     <p className=" text-xs hover:text-red cursor-pointer text-blue-500"> <Link to={"/signup"}> Create new user Sign Up!</Link></p>
                 </div>
             </form>
         </div>

@@ -66,7 +66,7 @@ const Singup = () => {
                 <div className="flex flex-col gap-2 items-start mt-4">
                     <b className="text-red-500 text-xs">{errorMessage && errorMessage}</b>
                     <input type="submit" className="bg-green-600 text-white border p-1 text-sm cursor-pointer w-full" value={"Signup"}/>
-                    <p className="text-xs hover:text-red cursor-pointer text-blue-400"> <Link to={"/"}>Alreadu  a User Login</Link></p>
+                    <p className="text-xs hover:text-red cursor-pointer text-blue-400"> <Link to={"/"}>Already  a User Login</Link></p>
                 </div>
             </form>
         </div>
